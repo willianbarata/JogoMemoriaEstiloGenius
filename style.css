@@ -13,7 +13,7 @@ body {
 
 .genius{
     display: grid;
-    grid-template-areas: 'green red' 'yellow blue'; 
+    grid-template-areas: 'supEsq supDir' 'infEsq infDir'; 
     grid-gap: 10px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
@@ -21,3 +21,28 @@ body {
     width: 700px;
     height: 700px;
 }
+
+.blue {
+    grid-area: infDir;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: infEsq;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.red {
+    grid-area: supDir;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.green {
+    grid-area: supEsq;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
