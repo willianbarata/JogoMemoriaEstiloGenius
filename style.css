@@ -46,3 +46,6 @@ body {
     border-top-left-radius: 100%;
 }
 
+.selected{
+    opacity: 0.8;
+}
